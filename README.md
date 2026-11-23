@@ -45,7 +45,7 @@ source("FoFR_rainfall_Indonesia_full_analysis.R")
 
 The script writes to `results/part1_main`, `results/part2_checks`, `results/part3_extra` and `results/part4_figures`. Each task is saved as an `.rds` checkpoint, so an interrupted run resumes where it stopped. Optional environment variables: `SFOFR_CORES` (number of cores), `SFOFR_PARTS` (for example `"2,3"`), `SFOFR_ROOT` (output folder) and `SFOFR_FETCH = "TRUE"` (download the data again from Open-Meteo).
 
-Tested with R in RStudio 2023.09.1+494 (macOS) and R 4.x on Linux.
+Tested with R 4.3.0 (2023-04-21) in RStudio 2023.09.1+494 on macOS (full run) and with R 4.x on Linux (smoke test).
 
 Seeds are fixed (base seed 20261120); Parts 2 and 3 reuse exactly the training and test days of Part 1, so all comparisons are paired.
 
