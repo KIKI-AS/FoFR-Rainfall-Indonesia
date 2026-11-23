@@ -1,0 +1,5 @@
+results/
+*.rds
+.Rhistory
+.DS_Store
+data/era5_indonesia_daily_curves_wide.csv

@@ -1,0 +1,10 @@
+design,kovariat,persen_h_Inf,median_h_terhingga
+diag_J1,rh,0,9.865
+diag_J2,cloud,26.4285714285714,144
+diag_J2,rh,0,9.89
+diag_J3,cloud,26.4285714285714,152.5
+diag_J3,rh,0,14.7
+diag_J3,temp,0,1.775
+pred_lag1_J3,cloud,17.5,139
+pred_lag1_J3,rh,0,18.95
+pred_lag1_J3,temp,22.5,2.94
